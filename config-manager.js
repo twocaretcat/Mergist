@@ -12,7 +12,7 @@ const config = {
 		shortTitle: 'Mergist',
 		title: 'Mergist - Online PDF Merger',
 		author: 'John Goodliff',
-		authorUsername: 'jerboa88',
+		authorUsername: 'twocaretcat',
 		shortDescription:
 			'Mergist is an online tool to combine multiple PDF files into one',
 		description:
@@ -20,7 +20,7 @@ const config = {
 		ogImageUrl: 'images/og-image.png',
 		ogImageAltText: 'Mergist logo',
 		siteUrl: 'https://mergist.johng.io/',
-		githubUrl: 'https://github.com/jerboa88/mergist/',
+		githubUrl: 'https://github.com/twocaretcat/mergist/',
 		homepageDomain: 'johng.io',
 	},
 	theme: {

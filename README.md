@@ -8,10 +8,10 @@
 
   <p class="projectBadges">
     <img src="https://johng.io/badges/category/App.svg" alt="Project category" title="Project category">
-    <img src="https://img.shields.io/github/languages/top/jerboa88/Mergist.svg" alt="Language" title="Language">
-    <img src="https://img.shields.io/github/repo-size/jerboa88/Mergist.svg" alt="Repository size" title="Repository size">
+    <img src="https://img.shields.io/github/languages/top/twocaretcat/Mergist.svg" alt="Language" title="Language">
+    <img src="https://img.shields.io/github/repo-size/twocaretcat/Mergist.svg" alt="Repository size" title="Repository size">
     <a href="LICENSE">
-      <img src="https://img.shields.io/github/license/jerboa88/Mergist.svg" alt="Project license" title="Project license"/>
+      <img src="https://img.shields.io/github/license/twocaretcat/Mergist.svg" alt="Project license" title="Project license"/>
     </a>
 		<a href="https://mergist.johng.io" title="Mergist - Online PDF Merger">
 			<img src="https://img.shields.io/website?url=https%3A%2F%2Fmergist.johng.io&up_message=mergist.johng.io%20%E2%86%97" alt="Project URL" title="Project URL">
@@ -29,7 +29,7 @@
 ## 📦 Installation
 1. Install Node.js and NPM (if they are not already set up on your system). See [nodejs.org](https://nodejs.org/) for more details.
 2. Install Yarn 3 (if it is not already set up on your system). See the [Yarn docs](https://yarnpkg.com/getting-started/install) for more details.
-3. Clone the repo with `https://github.com/jerboa88/Mergist.git`. Alternatively, you can download the repository as a zip file and extract it.
+3. Clone the repo with `https://github.com/twocaretcat/Mergist.git`. Alternatively, you can download the repository as a zip file and extract it.
 4. Enter the project root with `cd Mergist`.
 5. Use `yarn install` to install the app and all of its dependencies.
 
@@ -57,7 +57,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ## 🖇️ Related
 - **[Tally](https://tally.johng.io)**: Your favorite word counter, now with a dark mode! Count the number of characters, words, sentences, paragraphs, and lines in your text instantly
-- **[Shared File Finder for Google Drive](https://github.com/jerboa88/Shared-File-Finder-for-Google-Drive)**: An Apps Script that finds all files/folders on Google Drive that are shared with others and adds them to a Google Sheet
+- **[Shared File Finder for Google Drive](https://github.com/twocaretcat/Shared-File-Finder-for-Google-Drive)**: An Apps Script that finds all files/folders on Google Drive that are shared with others and adds them to a Google Sheet
 
 
 ## 💕 Funding

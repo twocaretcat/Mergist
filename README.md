@@ -91,18 +91,43 @@ Here is an overview of how the app works:
    bun run build && bun run serve  # Build for production & preview the build
    ```
 
+## 🛟 Support
+
+Need help? See the [support resources](https://github.com/twocaretcat/.github/blob/main/docs/SUPPORT.md) for information on how to:
+
+- request features
+- report bugs
+- ask questions
+- report security vulnerabilities
+
 ## 🤝 Contributing
 
-This a personal project but feel free to create an issue if you encounter any problems with the site. Please see [CONTRIBUTING.md](docs/CONTRIBUTING.md) for more details.
+Want to help out? Pull requests are welcome for:
+
+- feature implementations
+- bug fixes
+- translations
+- documentation
+- tests
+
+See the [contribution guide](../../contribute) for more details.
 
 ## 🧾 License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details. This project includes various resources which carry their own copyright notices and license terms. See [LICENSE-THIRD-PARTY.md](LICENSE-THIRD-PARTY.md) for more details.
+Copyright © 2025 [John Goodliff](https://johng.io/r/mergist) ([@twocaretcat](https://github.com/twocaretcat)).
+
+This project is licensed under the MIT License. See the [license](LICENSE) for more details.
+
+This project includes various resources which carry their own copyright notices and license terms. See [LICENSE-THIRD-PARTY.md](LICENSE-THIRD-PARTY.md) for more details.
 
 ## 🖇️ Related
 
-- **[Tally](https://tally.johng.io)**: Your favorite word counter, now with a dark mode! Count the number of characters, words, sentences, paragraphs, and lines in your text instantly
-- **[Shared File Finder for Google Drive](https://github.com/twocaretcat/Shared-File-Finder-for-Google-Drive)**: An Apps Script that finds all files/folders on Google Drive that are shared with others and adds them to a Google Sheet
+### Recommended
+
+Other projects you might like:
+
+- **👤 [Tally](https://tally.johng.io/r/mergist)**: Your favorite dark mode word counter, now with even more themes! Count the number of characters, words, sentences, paragraphs, and lines in your text instantly with Tally
+- **👤 [Shared File Finder for Google Drive](https://github.com/twocaretcat/Shared-File-Finder-for-Google-Drive)**: An Apps Script that finds all files/folders on Google Drive that are shared with others and adds them to a Google Sheet
 
 ## 💕 Funding
 

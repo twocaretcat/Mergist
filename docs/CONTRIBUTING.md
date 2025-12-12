@@ -22,6 +22,7 @@ changes so we can discuss the best way to do it.
 ## Tech Stack
 
 Here are some details about how the project is made for anyone who is looking to contribute or use this project as reference:
+
 - The site is written with the [React] library and built with [Gatsby]
 - All components and pages are written in [TypeScript], with config files written with JavaScript as required
 - All components are written as functions and use hooks for additional React features

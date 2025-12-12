@@ -116,7 +116,7 @@ See the [contribution guide](../../contribute) for more details.
 
 Copyright © 2025 [John Goodliff](https://johng.io/r/mergist) ([@twocaretcat](https://github.com/twocaretcat)).
 
-This project is licensed under the MIT License. See the [license](LICENSE) for more details.
+This project is licensed under the AGPL-3.0 License. See the [license](LICENSE) for more details.
 
 This project includes various resources which carry their own copyright notices and license terms. See [LICENSE-THIRD-PARTY.md](LICENSE-THIRD-PARTY.md) for more details.
 

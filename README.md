@@ -25,6 +25,28 @@
   <br/>
 </div>
 
+## 👋 About
+
+**Mergist** is a free online tool that lets you combine multiple PDF files into a single document instantly with **no ads, no file size limits, and no uploads to external servers**. The merging process runs locally on your device, so the merging process is _**fast**_, plus your files never leave your computer!
+
+### Features
+
+- **📄 Unlimited PDF merging:** Drag and drop or click to select multiple PDFs and merge them into one file
+	- No limits on the amount of files that can be added
+	- No limits on file sizes
+- **↕️ Document reordering:** Click and drag to reorder documents
+- **🔒 Privacy-focused:** All work happens in your browser, keeping your documents private and the process fast
+- **🎛️ Customizable:** Switch between light and dark themes and toggle animations to suit your preferences
+- **🆓 100% Free & Ad-Free:** Use the tool without distractions, privacy-invasive tracking, or paywalls — no ads, no sign-ups, no limitations
+- **👨🏻‍💻 Open-source:** Know how to code? Help make **Mergist** better by contributing to the project on GitHub, or copy it and make your own version!
+
+### Use Cases
+
+- **📚 Students:** Combine lecture notes, assignments, and references into one PDF for submission
+- **💼 Professionals:** Merge reports, contracts, and forms before sharing with clients or colleagues
+- **📑 Administrators:** Assemble documentation packets or archives quickly without software installs
+- **✉️ Everyday users:** Join scanned pages or downloaded PDFs for personal organization
+- **🧪 Developers & testers:** Quickly merge sample files when preparing demos, specs, or docs
 
 ## 📦 Installation
 1. Install Node.js and NPM (if they are not already set up on your system). See [nodejs.org](https://nodejs.org/) for more details.

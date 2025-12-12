@@ -47,34 +47,49 @@
 
 ### Screenshots
 
-|                    |                                                     **Dark**                                                     |                                                     **Light**                                                      |
+|                    |                                                   **🌚 Dark**                                                    |                                                    **🌞 Light**                                                    |
 | -----------------: | :--------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: |
 |       **Homepage** |               ![Screenshot of the Mergist homepage in dark mode](docs/images/dark/0-homepage.png)                |               ![Screenshot of the Mergist homepage in light mode](docs/images/light/0-homepage.png)                |
 |   **Adding files** |           ![Screenshot of Mergist in dark mode with files added](docs/images/dark/1-adding-files.png)            |           ![Screenshot of Mergist in light mode with files added](docs/images/light/1-adding-files.png)            |
 | **Merge complete** | ![Screenshot of Mergist in dark mode with a merged PDF ready to download](docs/images/dark/2-merge-complete.png) | ![Screenshot of Mergist in light mode with a merged PDF ready to download](docs/images/light/2-merge-complete.png) |
 |        **Options** |         ![Screenshot of Mergist in dark mode with the options menu open](docs/images/dark/3-options.png)         |         ![Screenshot of Mergist in light mode with the options menu open](docs/images/light/3-options.png)         |
 
+### How it works
+
+Here is an overview of how the app works:
+
+1. When you select files to merge, they are read into memory and added to the reorderable list in the file manager
+2. Clicking the `Merge Files` button triggers the merge process:
+   1. We use the [PDF-LIB](https://pdf-lib.js.org/) library to create a new PDF document and append the pages from the input PDFs to it
+   2. The resulting byte array is then converted to an object URL
+   3. The `href` of the download link is set to the object URL so that you can download the merged PDF
+
 ## 📦 Installation
 
-1. Install Node.js and NPM (if they are not already set up on your system). See [nodejs.org](https://nodejs.org/) for more details.
-2. Install Yarn 3 (if it is not already set up on your system). See the [Yarn docs](https://yarnpkg.com/getting-started/install) for more details.
-3. Clone the repo with `https://github.com/twocaretcat/Mergist.git`. Alternatively, you can download the repository as a zip file and extract it.
-4. Enter the project root with `cd Mergist`.
-5. Use `yarn install` to install the app and all of its dependencies.
+> [!NOTE]
+> These instructions are for self-hosting **Mergist** on your own server or developing locally. If you just want to use the web app, you can visit it at [mergist.johng.io](https://mergist.johng,io).
 
-## 🕹️ Usage
+1. **Install [Bun](https://bun.com/)** (we use Bun, but [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) probably works too)
 
-Mergist is a static site built using the Gatsby framework. We can build the site using the Gatsby CLI, which should have been installed with the install command above. All of the necessary commands are declared in `package.json` for convenience.
+2. **Clone the repository**
 
-There are two ways to build & serve the site:
+   ```sh
+   git clone https://github.com/twocaretcat/Mergist.git
+   cd Mergist
+   ```
 
-1. Use `yarn develop` to run the app in development mode. This will start the development server at [localhost:8000](https://localhost:8000) (by default). The project will automatically be rebuilt when changes are made.
+3. **Install dependencies**
 
-2. Use `yarn build` to generate a production build of the app, then use `yarn serve` to serve it. The site can be viewed at [localhost:9000](https://localhost:9000) (by default).
+   ```sh
+   bun install
+   ```
 
-`yarn clean` can be used to clear the local Gatsby cache if you encounter any issues with stale data/dependencies.
+4. **Build & Serve**
 
-See the [Gatsby CLI docs](https://www.gatsbyjs.com/docs/reference/gatsby-cli/) for additional commands and options. You will likely have to prefix commands with `yarn` to make sure package resolution works properly. For example, the above `yarn develop` is actually just a shortcut for `yarn gatsby develop`.
+   ```sh
+   bun run develop                 # Start the dev server, or
+   bun run build && bun run serve  # Build for production & preview the build
+   ```
 
 ## 🤝 Contributing
 

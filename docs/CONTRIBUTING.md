@@ -28,7 +28,21 @@ Here are some details about how the project is made for anyone who is looking to
 - All components are written as functions and use hooks for additional React features
 - [DaisyUI] component classes are used to style most components, with [Tailwind CSS] (via [PostCSS]) used for additional styling
 - [PDF-LIB] is used to actually merge the input PDF documents in the browser
-- Deployment is done using a custom GitHub Actions workflow which builds the app using Gatsby and commits it to the `gh-pages` branch where it is published by GitHub. It is based on the [GitHub Pages Action] plugin by Shohei Ueda. See [main.yml](.github/workflows/main.yml) for more details
+- Deployment is done using a custom GitHub Actions workflow which builds the app using Gatsby and commits it to the `gh-pages` branch where it is published by GitHub. It is based on the [GitHub Pages Action] plugin by Shohei Ueda. See [main.yml](../.github/workflows/main.yml) for more details
+
+## Commands
+
+We can build the site using the Gatsby CLI. All of the necessary commands are declared in `package.json` for convenience.
+
+There are two ways to build & serve the site:
+
+1. Use `bun run develop` to run the app in development mode. This will start the development server at [localhost:8000](https://localhost:8000) (by default). The project will automatically be rebuilt when changes are made, or
+
+2. Use `bun run build` to generate a production build of the app, then use `bun run serve` to serve it. The site can be viewed at [localhost:9000](https://localhost:9000) (by default)
+
+`bun run clean` can be used to clear the local Gatsby cache if you encounter any issues with stale data/dependencies
+
+See the [Gatsby CLI docs](https://www.gatsbyjs.com/docs/reference/gatsby-cli/) for additional commands and options that you can run with `bunx gatsby COMMAND`
 
 ## License
 

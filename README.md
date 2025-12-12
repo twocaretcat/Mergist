@@ -5,7 +5,6 @@
       <img class="projectLogo" src="src/images/text-logo.png" alt="Project logo" title="Project logo" width="256">
     </a>
   </h1>
-
   <p class="projectBadges">
     <img src="https://johng.io/badges/category/App.svg" alt="Project category" title="Project category">
     <img src="https://img.shields.io/github/languages/top/twocaretcat/Mergist.svg" alt="Language" title="Language">
@@ -17,11 +16,9 @@
 			<img src="https://img.shields.io/website?url=https%3A%2F%2Fmergist.johng.io&up_message=mergist.johng.io%20%E2%86%97" alt="Project URL" title="Project URL">
 		</a>
   </p>
-
   <p class="projectDesc">
     Mergist is an online tool to combine multiple PDF files into one. Mergist has no ads, no file size limits, and your files never leave your device.
   </p>
-
   <br/>
 </div>
 
@@ -47,6 +44,15 @@
 - **📑 Administrators:** Assemble documentation packets or archives quickly without software installs
 - **✉️ Everyday users:** Join scanned pages or downloaded PDFs for personal organization
 - **🧪 Developers & testers:** Quickly merge sample files when preparing demos, specs, or docs
+
+### Screenshots
+
+|                    |                                                     **Dark**                                                     |                                                     **Light**                                                      |
+| -----------------: | :--------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: |
+|       **Homepage** |               ![Screenshot of the Mergist homepage in dark mode](docs/images/dark/0-homepage.png)                |               ![Screenshot of the Mergist homepage in light mode](docs/images/light/0-homepage.png)                |
+|   **Adding files** |           ![Screenshot of Mergist in dark mode with files added](docs/images/dark/1-adding-files.png)            |           ![Screenshot of Mergist in light mode with files added](docs/images/light/1-adding-files.png)            |
+| **Merge complete** | ![Screenshot of Mergist in dark mode with a merged PDF ready to download](docs/images/dark/2-merge-complete.png) | ![Screenshot of Mergist in light mode with a merged PDF ready to download](docs/images/light/2-merge-complete.png) |
+|        **Options** |         ![Screenshot of Mergist in dark mode with the options menu open](docs/images/dark/3-options.png)         |         ![Screenshot of Mergist in light mode with the options menu open](docs/images/light/3-options.png)         |
 
 ## 📦 Installation
 

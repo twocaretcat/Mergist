@@ -5,17 +5,15 @@
       <img class="projectLogo" src="src/images/text-logo.png" alt="Project logo" title="Project logo" width="256">
     </a>
   </h1>
-  <p class="projectBadges">
+  <p class="projectBadges info">
     <img src="https://johng.io/badges/category/App.svg" alt="Project category" title="Project category">
     <img src="https://img.shields.io/github/languages/top/twocaretcat/Mergist.svg" alt="Language" title="Language">
     <img src="https://img.shields.io/github/repo-size/twocaretcat/Mergist.svg" alt="Repository size" title="Repository size">
-    <a href="LICENSE">
-      <img src="https://img.shields.io/github/license/twocaretcat/Mergist.svg" alt="Project license" title="Project license"/>
-    </a>
-		<a href="https://mergist.johng.io" title="Mergist - Online PDF Merger">
-			<img src="https://img.shields.io/website?url=https%3A%2F%2Fmergist.johng.io&up_message=mergist.johng.io%20%E2%86%97" alt="Project URL" title="Project URL">
-		</a>
+    <a href="LICENSE"><img src="https://img.shields.io/github/license/twocaretcat/Mergist.svg" alt="Project license" title="Project license"/></a>
   </p>
+	<p class="projectBadges status">
+		<a href="https://mergist.johng.io" title="Mergist - Online PDF Merger"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmergist.johng.io&up_message=mergist.johng.io%20%E2%86%97" alt="Project URL" title="Project URL"></a>
+	</p>
   <p class="projectDesc">
     Mergist is an online tool to combine multiple PDF files into one. Mergist has no ads, no file size limits, and your files never leave your device.
   </p>
@@ -90,6 +88,56 @@ Here is an overview of how the app works:
    bun run develop                 # Start the dev server, or
    bun run build && bun run serve  # Build for production & preview the build
    ```
+
+## 🕹️ Usage
+
+### Adding files
+
+You can add files to the queue by dragging and dropping them onto the page, or by clicking the dropzone to select files from your file system.
+
+| ![Screenshot of the dropzone](docs/images/dark/dropzone.png) |
+| ------------------------------------------------------------ |
+| _Dropzone used to add files_                                 |
+
+When you add files, the dropzone will be replaced with a file manager, but you can still drag and drop files onto the page to add more. Additionally, an `Add File` button will appear that you can click to select more files from your file system.
+
+### Managing files
+
+The file manager shows the files that have been added to the queue.
+
+| ![Screenshot of the file manager with 2 files added](docs/images/dark/file-manager.png) |
+| --------------------------------------------------------------------------------------- |
+| _File manager_                                                                          |
+
+The header of the file manager shows the total number of files and the total size of the files. You can use the `Add File` and `Remove All` buttons to add more files or remove all files from the queue, respectively.
+
+You can also view the size of each file in the queue, and remove individual files by clicking the `Remove` button on the right side of each file.
+
+Files will be combined in the order they are shown in the list. The handles on the left side of each file in the queue can be dragged to reorder them.
+
+### Merging files
+
+You can merge the files in the queue by clicking the `Merge` button. During the merge, the button will update to show the progress of the operation. When complete, the merge button will be replaced with a `Download` button that you can click to download the merged file.
+
+| ![Screenshot of the merge button](docs/images/dark/button/0-merge.png) | ![Screenshot of the progress button with 25% progress shown](docs/images/dark/button/1-progress.png) | ![Screenshot of the download button](docs/images/dark/button/2-download.png) |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| _Merge button_                                                         | _Progress button_                                                                                    | _Download button_                                                            |
+
+### More
+
+The footer of the page contains a link to the project's source code and buttons to interact with the app further.
+
+| ![Screenshot of the page footer](docs/images/dark/footer.png) |
+| ------------------------------------------------------------- |
+| _Page footer_                                                 |
+
+Clicking the `Options` button will open a modal that can be used to change settings for the app like the theme and whether animations are enabled.
+
+| ![Screenshot of the options modal](docs/images/dark/options-modal.png) |
+| ---------------------------------------------------------------------- |
+| _Page footer_                                                          |
+
+The `Privacy` and `About` buttons open modals to view the privacy policy and information about the site, respectively.
 
 ## 🛟 Support
 

@@ -47,9 +47,7 @@ function MotionToggle() {
 /**
  * A modal that allows setting options for the site
  */
-export function OptionsModal(props: {
-	id: string;
-}) {
+export function OptionsModal(props: { id: string }) {
 	return (
 		<Modal
 			id={props.id}

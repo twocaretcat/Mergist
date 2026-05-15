@@ -13,9 +13,16 @@
 @layer base {
 	/* Fix for forced scrollbar-gutter when a modal is open */
 	/* Source: https://github.com/saadeghi/daisyui/pull/2956#issuecomment-2043840868 */
-	:root:has(:is(.modal-open, .modal:target, .modal-toggle:checked + .modal, .modal[open])) {
-    scrollbar-gutter: auto !important;
-  }
+	:root:has(
+		:is(
+				.modal-open,
+				.modal:target,
+				.modal-toggle:checked + .modal,
+				.modal[open]
+			)
+	) {
+		scrollbar-gutter: auto !important;
+	}
 
 	/* Override flex-row and flex-col to also change the display type so we don't have to specify this manually every time */
 	.flex-row,
@@ -82,9 +89,11 @@
 	*::-webkit-scrollbar-thumb {
 		@apply rounded-full;
 		/* Use transparent border as margin/padding is not supported for scrollbar components */
-		border: .25em transparent solid;
+		border: 0.25em transparent solid;
 		/* Set background color using box-shadow because background doesn't work with above hack */
-		box-shadow: inset 0 -1px 1px #000000aa, inset 0 0 99px #ffffff22;
+		box-shadow:
+			inset 0 -1px 1px #000000aa,
+			inset 0 0 99px #ffffff22;
 	}
 }
 
